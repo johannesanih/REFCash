@@ -1,0 +1,76 @@
+#main {
+	padding: 40px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#main>#signup-div {
+	display: none;
+}
+
+#main>#login-div,
+#main>#signup-div {
+	text-align: center;
+}
+#main>#login-div>#login-form,
+#main>#signup-div>#signup-form {
+	padding: 10px 0;
+	text-align: center;
+}
+#main>#login-div>#name,
+#main>#signup-div>#name {
+	color: var(--m-dark-sky-blue);
+}
+#main>#login-div>#login-form>div>label,
+#main>#signup-div>#signup-form>div>label {
+	margin: 3px;
+	display: block;
+	text-align: center;
+}
+#main>#login-div>#login-form>div,
+#main>#signup-div>#signup-form>div {
+	margin: 20px;
+}
+#main>#login-div>#login-form>#submit-div>#account-o-c-l,
+#main>#signup-div>#signup-form>#submit-div>#account-o-c-r {
+	display: block;
+	margin: 10px;
+	font-weight: bold;
+}
+#main>#login-div>#login-form>#submit-div>#account-o-c-l>a,
+#main>#signup-div>#signup-form>#submit-div>#account-o-c-r>a {
+	text-decoration: none;
+	color: var(--m-navy-blue);
+	transition: var(--m-default-transition);
+}
+#main>#login-div>#login-form>#submit-div>#account-o-c-l>a:hover,
+#main>#login-div>#login-form>#submit-div>#account-o-c-l>a:active,
+#main>#signup-div>#signup-form>#submit-div>#account-o-r>a:hover,
+#main>#signup-div>#signup-form>#submit-div>#account-o-c-r>a:active {
+	color: var(--m-sky-blue);
+}
+#main>#login-div>#login-form>div>input,
+#main>#signup-div>#signup-form>div>input {
+	margin: 3px;
+	padding: 10px;
+	font-size: 20px;
+	border: 1px solid var(--m-navy-blue);
+	border-radius: 5px;
+	background-color: white;
+}
+#main>#login-div>#login-form>div>input[type='submit'],
+#main>#signup-div>#signup-form>div>input[type='submit'] {
+	font-weight: bold;
+	color: white;
+	background-color: var(--m-navy-blue);
+	transition: var(--m-default-transition);
+}
+#main>#login-div>#login-form>div>input[type='submit']:hover,
+#main>#login-div>#login-form>div>input[type='submit']:active,
+#main>#signup-div>#signup-form>div>input[type='submit']:hover,
+#main>#signup-div>#signup-form>div>input[type='submit']:active {
+	background-color: var(--m-sky-blue);
+	box-shadow: 0px 0px 8px 1px #aaa;
+}

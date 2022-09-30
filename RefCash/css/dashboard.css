@@ -1,0 +1,128 @@
+#main {
+	display: block;
+}
+.main-in, #main-in-1 {
+	margin: 5px 0;
+	padding: 40px;
+	text-align: center;
+	background-color: var(--m-dark-blue);
+	color: white;
+	border-radius: 10px;
+}
+#h1-1 {
+	color: var(--m-sky-blue);
+}
+#pay-link>a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 30px;
+	font-size: 24px;
+	font-weight: bold;
+	color: var(--m-dark-blue);
+	background-color: var(--m-sky-blue);
+	border-radius: 5px;
+	transition: var(--m-default-transition);
+}
+#pay-link>a:hover,
+#pay-link>a:active {
+	background-color: var(--m-dark-sky-blue);
+	color: white;
+	box-shadow: 0 0 20px #111;
+}
+
+#set-account-details {
+	margin: 5px;
+	text-align: center;
+	background-color: none !important;
+}
+#set-account-details>a {
+	display: inline-block;
+	margin: 5px;
+	text-decoration: none;
+	color: white;
+	background-color: var(--m-navy-blue);
+	border-radius: 5px;
+	font-size: 24px;
+	transition: var(--m-default-transition);
+}
+#set-account-details>a:hover,
+#set-account-details>a:active {
+	color: var(--m-dark-blue);
+	background-color: var(--m-sky-blue);
+}
+
+#bank_details_form {
+	padding: 20px;
+	text-align: center;
+}
+#bank_details_form>#heading {
+	color: var(--m-dark-sky-blue);
+}
+#bank_details_form>input[type='text'], #bank_details_form>input[type='number'] {
+	margin: 5px;
+	padding: 10px;
+	font-size: 18px;
+	width: 250px;
+	border: 1px solid var(--m-dark-sky-blue);
+	border-radius: 5px;
+}
+#bank_details_form>input[type='submit'] {
+	margin: 5px;
+	padding: 10px;
+	font-size: 18px;
+	width: 250px;
+	border: none;
+	border-radius: 5px;
+	transition: var(--m-default-transition);
+}
+#bank_details_form>input[type='submit']:hover,
+#bank_details_form>input[type='submit']:active {
+	color: white;
+	background-color: var(--m-dark-sky-blue);
+}
+
+#balance {
+	font-size: 36px;
+	color: var(--m-sky-blue);
+}
+.pay-btn, .print-btn {
+	padding: 30px;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bold;
+	color: var(--m-dark-blue);
+	background-color: var(--m-sky-blue);
+	border: none;
+	border-radius: 5px;
+	transition: var(--m-default-transition);
+	cursor: pointer;
+}
+.pay-btn:hover,
+.pay-btn:active,
+.print-btn:hover,
+.print-btn:active {
+	background-color: var(--m-dark-sky-blue);
+	color: white;
+	box-shadow: 0 0 20px #111;
+}
+
+#main>#thank-you-div {
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+	color: white;
+	background-color: var(--m-dark-blue);
+	border: none;
+	border-radius: 10px;
+}
+#main>#thank-you-div>#heading {
+	color: var(--m-sky-blue);
+}
+
+.main-in>#tools>#info>table {
+	margin: 10px;
+}
+.main-in>#tools>#info>table>tr {
+	color: var(--m-dark-blue);
+	background-color: var(--m-sky-blue);
+}
